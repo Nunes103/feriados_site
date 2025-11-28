@@ -107,7 +107,7 @@ function App() {
   const [status, setStatus] = useState("");
   const [error, setError] = useState("");
 
-  const [expandedId, setExpandedId] = useState(null); // qual feriado está “aberto”
+  const [expandedId, setExpandedId] = useState(null); 
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -344,5 +344,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
