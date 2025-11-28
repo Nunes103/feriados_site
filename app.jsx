@@ -203,8 +203,8 @@ function App() {
       </header>
 
       <main className="page">
-        <section className="hero">
-          <div className="hero-content">
+        <section className="Inicio">
+          <div className="Inicio-content">
             <h1>Calendário de Feriados Nacionais</h1>
             <p>
               Consulte os feriados nacionais brasileiros por ano e filtre por
@@ -347,3 +347,4 @@ function App() {
 
 
 export default App;
+
